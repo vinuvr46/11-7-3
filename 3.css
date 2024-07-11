@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.header {
+    position: relative;
+}
+
+.top-bar {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    position: relative;
+}
+
+.top-bar .shop-now {
+    color: #ffbb33;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.main-banner {
+    position: relative;
+}
+
+.main-banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.banner-text h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: bold;
+    color: #ff4646;
+}
+
+.banner-text h2 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.banner-text p {
+    font-size: 1em;
+    margin: 10px 0 20px;
+}
+
+.shop-now-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.category {
+    text-align: center;
+    width: 30%;
+}
+
+.category img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.category h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #333;
+}
